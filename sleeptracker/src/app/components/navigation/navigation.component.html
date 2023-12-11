@@ -1,0 +1,16 @@
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home" href="http://localhost:8100/home">
+      <ion-icon name="home"></ion-icon>
+      Home
+    </ion-tab-button>
+    <ion-tab-button tab="sleep" (click)="goToSleepPage()">
+      <ion-icon name="moon"></ion-icon>
+      Sleep
+    </ion-tab-button>
+    <ion-tab-button tab="sleepiness" (click)="goToSleepinessPage()">
+      <ion-icon name="bed"></ion-icon>
+      Sleepiness
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
